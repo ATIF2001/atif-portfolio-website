@@ -43,24 +43,24 @@ const Hero = () => {
       
       <div className="container mx-auto px-4 relative z-10">
         <div className="max-w-4xl mx-auto text-center">
-          <h1 className="text-5xl md:text-7xl font-bold mb-6 animate-fade-up">
+          <h1 className="text-3xl sm:text-5xl md:text-7xl font-bold mb-6 animate-fade-up">
             Your Vision, <span className="text-primary">Fully Built</span>
           </h1>
           
-          <h2 className="text-2xl md:text-3xl text-muted-foreground mb-8 animate-fade-up" style={{ animationDelay: "0.2s" }}>
+          <h2 className="text-lg sm:text-2xl md:text-3xl text-muted-foreground mb-8 animate-fade-up" style={{ animationDelay: "0.2s" }}>
             Full Stack Developer & AI Automation Expert
           </h2>
           
-          <p className="text-lg md:text-xl text-muted-foreground mb-8 max-w-2xl mx-auto animate-fade-up" style={{ animationDelay: "0.3s" }}>
+          <p className="text-base sm:text-lg md:text-xl text-muted-foreground mb-8 max-w-2xl mx-auto px-2 animate-fade-up" style={{ animationDelay: "0.3s" }}>
             From idea to launch — I build complete products, integrate AI & automation, 
             and can hire & manage technical teams to deliver your project end-to-end.
           </p>
           
-          <div className="flex flex-wrap justify-center gap-3 mb-10 animate-fade-up" style={{ animationDelay: "0.4s" }}>
+          <div className="flex flex-wrap justify-center gap-2 sm:gap-3 mb-10 px-2 animate-fade-up" style={{ animationDelay: "0.4s" }}>
             {["React", "Node.js", "MongoDB", "Python", "WeWeb", "Xano", "n8n", "Make.com", "OpenAI", "Supabase"].map((tech) => (
               <span 
                 key={tech}
-                className="px-4 py-2 bg-primary/10 border border-primary/30 rounded-full text-sm font-medium text-primary"
+                className="px-3 py-1.5 sm:px-4 sm:py-2 bg-primary/10 border border-primary/30 rounded-full text-xs sm:text-sm font-medium text-primary"
               >
                 {tech}
               </span>

@@ -60,7 +60,7 @@ const Header = () => {
               className="bg-gradient-primary hover:shadow-glow transition-all duration-300"
               onClick={() =>
                 window.open(
-                  "https://drive.google.com/file/d/1uLBHfxXGgq6GwRJiKipBoPfRi0uy9PAI/view?usp=sharing?usp=sharing",
+                  "https://drive.google.com/file/d/1uLBHfxXGgq6GwRJiKipBoPfRi0uy9PAI/view?usp=sharing",
                   "_blank"
                 )
               }

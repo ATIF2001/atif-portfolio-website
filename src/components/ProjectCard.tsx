@@ -39,7 +39,7 @@ const ProjectCard = ({ project, onTitleClick }: ProjectCardProps) => {
       <div className="absolute inset-0 bg-gradient-to-br from-primary/5 via-transparent to-accent/5 opacity-0 group-hover:opacity-100 transition-opacity duration-500" />
       
       {/* Project Image with slider */}
-      <div className="relative h-56 bg-gradient-secondary overflow-hidden">
+      <div className="relative h-48 sm:h-56 bg-gradient-secondary overflow-hidden">
         {images.length > 0 ? (
           <>
             <img 
