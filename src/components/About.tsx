@@ -73,7 +73,7 @@ const About = () => {
               like n8n and Make.com, I thrive on turning challenging requirements into elegant, efficient solutions.
             </p>
             
-            <div className="grid grid-cols-2 md:grid-cols-4 gap-4 mt-8">
+            <div className="grid grid-cols-1 sm:grid-cols-2 md:grid-cols-4 gap-4 mt-8">
               {highlights.map((item, index) => (
                 <div 
                   key={index}
@@ -91,7 +91,7 @@ const About = () => {
           </div>
           
           <div className="mt-12 p-8 bg-gradient-secondary rounded-2xl border border-border">
-            <div className="grid grid-cols-2 md:grid-cols-4 gap-8 text-center">
+            <div className="grid grid-cols-2 sm:grid-cols-4 gap-4 sm:gap-8 text-center">
               <div>
                 <div className="text-3xl font-bold text-primary mb-2">2+</div>
                 <div className="text-sm text-muted-foreground">Years Experience</div>

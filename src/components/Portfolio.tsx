@@ -193,7 +193,7 @@ const Portfolio = () => {
           </div>
           
           {/* Filter Buttons */}
-          <div className="flex flex-wrap justify-center gap-3 mb-12">
+          <div className="flex flex-wrap justify-center gap-2 sm:gap-3 mb-12">
             {categories.map((category) => (
               <Button
                 key={category}
@@ -207,7 +207,7 @@ const Portfolio = () => {
           </div>
           
           {/* Projects Grid */}
-          <div className="grid md:grid-cols-2 lg:grid-cols-3 gap-6">
+          <div className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 gap-4 sm:gap-6">
             {filteredProjects.map((project, index) => (
               <div 
                 key={project.id}
