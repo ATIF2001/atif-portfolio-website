@@ -167,6 +167,18 @@ const Portfolio = () => {
       tools: ["React.js", "Node.js", "MongoDB", "Custom CRM", "REST API", "Dynamic CMS"],
       liveUrl: "https://www.jovera.ae/",
       images: [joveraGroup]
+    },
+    {
+      id: "12",
+      title: "MK4 Events - Luxury Wedding Planning",
+      category: "Full Stack Projects",
+      description: "Elegant website for luxury event architecture and bespoke wedding planning services",
+      challenge: "MK4 Events needed a sophisticated, visually stunning website to showcase their luxury wedding and event planning services while conveying elegance and professionalism to high-end clients.",
+      solution: "Built a modern, responsive website with stunning visuals, service showcases, project galleries, and seamless contact integration. Implemented dynamic content sections for corporate, wedding, and outdoor event categories.",
+      impact: "Enhanced online brand presence, improved client engagement, and provided a professional platform for potential clients to explore services and connect directly.",
+      tools: ["React.js", "Node.js", "Responsive Design", "Animation", "CMS"],
+      liveUrl: "https://www.mk4events.com/",
+      images: [mk4events]
     }
   ];
 
