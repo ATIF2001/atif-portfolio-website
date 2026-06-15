@@ -55,22 +55,23 @@ const About = () => {
           {/* Text Content - Now below the image */}
           <div className="max-w-4xl mx-auto space-y-6">
             <p className="text-lg text-muted-foreground leading-relaxed">
-              I'm a passionate Full Stack Developer with a proven track record of building scalable web applications 
-              and implementing intelligent automation solutions. With expertise spanning from traditional web development 
-              to cutting-edge low-code platforms and AI integrations, I bring a unique blend of technical depth and 
-              practical problem-solving skills.
+              I'm a Frontend Expert and Full Stack Developer with deep experience in building 
+              high-performance, pixel-perfect web interfaces and complete end-to-end products. 
+              I specialize in React ecosystems, modern JavaScript, and scalable backend architectures 
+              — turning complex designs into smooth, responsive user experiences.
             </p>
             
             <p className="text-lg text-muted-foreground leading-relaxed">
-              My journey in software engineering has equipped me with proficiency in JavaScript ecosystems (React, Node.js), 
-              Python frameworks (Django), and modern DevOps practices. I specialize in creating seamless API integrations, 
-              workflow automations, and SaaS solutions that drive measurable business growth.
+              My full-stack expertise spans the MERN stack, Python frameworks like Django, and 
+              modern low-code platforms. What truly sets me apart is my ability to integrate 
+              cutting-edge AI capabilities — from RAG-based chatbots and OpenAI-powered features 
+              to intelligent automation workflows — directly into production applications.
             </p>
             
             <p className="text-lg text-muted-foreground leading-relaxed">
-              What sets me apart is my adaptability and eagerness to embrace new technologies. Whether it's implementing 
-              RAG-based AI applications, optimizing CRM systems, or architecting complex automation workflows with tools 
-              like n8n and Make.com, I thrive on turning challenging requirements into elegant, efficient solutions.
+              Whether you need a stunning frontend, a robust full-stack SaaS, or AI-driven 
+              intelligence woven into your product, I bring the technical depth and practical 
+              problem-solving skills to deliver solutions that drive real business growth.
             </p>
             
             <div className="grid grid-cols-1 sm:grid-cols-2 md:grid-cols-4 gap-4 mt-8">

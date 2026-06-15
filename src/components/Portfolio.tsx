@@ -30,7 +30,120 @@ const Portfolio = () => {
   const [modalOpen, setModalOpen] = useState(false);
 
   const projects = [
-    // n8n Projects
+    // Full Stack Projects (Big Projects First)
+    {
+      id: "9",
+      title: "LuxeReply AI - Review Management SaaS",
+      category: "Full Stack Projects",
+      description: "Multi-tenant SaaS platform for AI-powered review management across locations",
+      challenge: "Businesses needed a centralized platform to manage reviews from multiple locations and channels with AI-powered response generation.",
+      solution: "Developed a comprehensive SaaS using WeWeb, Xano, Django, and n8n. Implemented multi-tenancy, role-based access, channel integrations (Google, Facebook, Yelp), and AI response generation.",
+      impact: "Secured $250k seed funding, onboarded 50+ businesses, improved review response rates by 72%, and reduced response time by 90%.",
+      tools: ["WeWeb", "Xano", "Django", "n8n", "AI Integration", "Multi-tenancy"],
+      liveUrl: "https://www.luxereply.com/",
+      images: [luxereplyDashboard1New, luxereplyDashboard2New, luxereplyReviewsNew]
+    },
+    {
+      id: "7",
+      title: "Felix Rental - Booking Engine",
+      category: "Full Stack Projects",
+      description: "Custom booking engine for short-term property rentals with payment integration",
+      challenge: "Property managers needed a comprehensive booking system to manage multiple properties, automate bookings, and process payments securely.",
+      solution: "Developed a full-featured booking engine using WeWeb and Xano with Stripe integration. Implemented property management dashboard, automated booking workflows, and Bed24 API integration.",
+      impact: "Increased rental booking revenue by 30%+, reduced manual data entry by 75%, and improved booking conversion rates.",
+      tools: ["WeWeb", "Xano", "Node.js", "React.js", "Bed24 API", "Stripe"],
+      liveUrl: "https://www.awaystayplay.com/",
+      images: [bookingEngineNew, bookingEngine2]
+    },
+    {
+      id: "8",
+      title: "Property Management Dashboard",
+      category: "Full Stack Projects",
+      description: "Comprehensive property management system with automated workflows",
+      challenge: "Felix needed tools to streamline property addition, deletion, and synchronization across multiple booking platforms.",
+      solution: "Built management tools using WeWeb, Xano, and React with AWS S3 for storage. Integrated n8n and Make.com for automated data synchronization with Bed24 and other platforms.",
+      impact: "Reduced manual work by 80%, eliminated data entry costs, and enabled property owners to self-manage listings.",
+      tools: ["WeWeb", "Xano", "n8n", "Make.com", "React.js", "AWS S3"],
+      liveUrl: "https://www.propertiesgetfelix.com.au/add_general_property_info",
+      images: [felixDashboard1New, felixDashboard2New]
+    },
+    {
+      id: "5",
+      title: "ExtractXtract AI - Construction Estimation",
+      category: "Full Stack Projects",
+      description: "RAG-based SaaS for real-time construction cost and duration estimation",
+      challenge: "US construction workers needed accurate project estimates from specification documents, but manual estimation was time-consuming and error-prone.",
+      solution: "Developed a full-stack application using Django and React with OpenAI integration. Built RAG system trained on construction data to analyze uploaded PDFs and generate accurate estimates.",
+      impact: "Reduced estimation time by 50%, improved accuracy by 40%, and enabled instant PDF report generation for project managers.",
+      tools: ["Python", "Django", "React.js", "OpenAI", "PDF Processing", "RAG"],
+      githubUrl: "https://github.com/quixastechnology/EstimateXtract_AI",
+      images: [extractXtractNew]
+    },
+    {
+      id: "6",
+      title: "News Aggregator Platform",
+      category: "Full Stack Projects",
+      description: "Personalized news platform with recommendation engine and social features",
+      challenge: "Users wanted a centralized platform to access news from multiple sources with personalized recommendations based on their interests.",
+      solution: "Built a MERN stack application with News API integration. Implemented like/unlike functionality, commenting system, and ML-based recommendation algorithm for personalized content delivery.",
+      impact: "Achieved 5000+ active users, 85% user retention rate, and 3-minute average session duration.",
+      tools: ["React.js", "Node.js", "Express.js", "MongoDB", "News API", "ML Recommendations"],
+      githubUrl: "https://github.com/ATIF2001/News-aggregator",
+      images: [newsWebsite1New, newsWebsite2New]
+    },
+    {
+      id: "11",
+      title: "Jovera Group - Corporate Website",
+      category: "Full Stack Projects",
+      description: "Fully dynamic corporate website with custom CRM integration for content management",
+      challenge: "Jovera Group, a multi-service conglomerate in UAE, needed a professional, fully dynamic bilingual website that could be managed by their team without developer intervention.",
+      solution: "Built a dynamic corporate website using React.js, Node.js, and MongoDB. Developed a custom content management module within Jovera's existing CRM system, enabling the team to update all website content — pages, services, media, and announcements — in real-time.",
+      impact: "Delivered a fully dynamic website with zero downtime content updates, enabled non-technical staff to manage content, and improved online presence for the group's multiple business divisions.",
+      tools: ["React.js", "Node.js", "MongoDB", "Custom CRM", "REST API", "Dynamic CMS"],
+      liveUrl: "https://www.jovera.ae/",
+      images: [joveraGroup]
+    },
+    {
+      id: "12",
+      title: "MK4 Events - Luxury Wedding Planning",
+      category: "Full Stack Projects",
+      description: "Elegant website for luxury event architecture and bespoke wedding planning services",
+      challenge: "MK4 Events needed a sophisticated, visually stunning website to showcase their luxury wedding and event planning services while conveying elegance and professionalism to high-end clients.",
+      solution: "Built a modern, responsive website with stunning visuals, service showcases, project galleries, and seamless contact integration. Implemented dynamic content sections for corporate, wedding, and outdoor event categories.",
+      impact: "Enhanced online brand presence, improved client engagement, and provided a professional platform for potential clients to explore services and connect directly.",
+      tools: ["React.js", "Node.js", "Responsive Design", "Animation", "CMS"],
+      liveUrl: "https://www.mk4events.com/",
+      images: [mk4events]
+    },
+
+    // Bubble.io Projects
+    {
+      id: "10",
+      title: "Quixas Technology RAG Chatbot",
+      category: "Bubble.io Projects",
+      description: "RAG-based AI chatbot integrated into company website for intelligent customer support",
+      challenge: "Quixas needed an intelligent chatbot that could answer customer queries about their services using company-specific knowledge.",
+      solution: "Built and integrated a RAG-based chatbot into the Bubble.io company website, enabling contextual responses based on company information and services.",
+      impact: "Improved customer engagement, reduced support queries by 35%, and provided 24/7 automated assistance.",
+      tools: ["Bubble.io", "RAG", "AI Chatbot", "Vector Store"],
+      liveUrl: "https://quixasit.com/",
+      images: [quixasLandingNew, quixasDashboard]
+    },
+
+    // Make.com Projects
+    {
+      id: "4",
+      title: "Cold Email Automation System",
+      category: "Make.com Projects",
+      description: "Personalized cold email generation with Google Sheets and ClickUp integration",
+      challenge: "Sales team needed an efficient way to generate personalized cold emails at scale while tracking them across multiple platforms.",
+      solution: "Built a Make.com automation that integrates Google Sheets, OpenAI for personalization, and ClickUp for task management. Automated the entire flow from data input to task creation.",
+      impact: "Reduced email creation time by 80%, improved personalization quality, and streamlined task management across teams.",
+      tools: ["Make.com", "Google Sheets", "OpenAI", "ClickUp", "API Integration"],
+      images: [makeAutomationNew]
+    },
+
+    // n8n Projects (Automation - Bottom)
     {
       id: "1",
       title: "AI Review Response Generator - LuxeReply",
@@ -64,121 +177,6 @@ const Portfolio = () => {
       impact: "Increased email engagement by 30-40%, automated 100% of follow-up sequences, and improved lead conversion by 25%.",
       tools: ["n8n", "Airtable", "Email API", "Automation Rules"],
       images: [emailCampaignNew]
-    },
-
-    // Make.com Projects
-    {
-      id: "4",
-      title: "Cold Email Automation System",
-      category: "Make.com Projects",
-      description: "Personalized cold email generation with Google Sheets and ClickUp integration",
-      challenge: "Sales team needed an efficient way to generate personalized cold emails at scale while tracking them across multiple platforms.",
-      solution: "Built a Make.com automation that integrates Google Sheets, OpenAI for personalization, and ClickUp for task management. Automated the entire flow from data input to task creation.",
-      impact: "Reduced email creation time by 80%, improved personalization quality, and streamlined task management across teams.",
-      tools: ["Make.com", "Google Sheets", "OpenAI", "ClickUp", "API Integration"],
-      images: [makeAutomationNew]
-    },
-
-    // Full Stack Projects
-    {
-      id: "5",
-      title: "ExtractXtract AI - Construction Estimation",
-      category: "Full Stack Projects",
-      description: "RAG-based SaaS for real-time construction cost and duration estimation",
-      challenge: "US construction workers needed accurate project estimates from specification documents, but manual estimation was time-consuming and error-prone.",
-      solution: "Developed a full-stack application using Django and React with OpenAI integration. Built RAG system trained on construction data to analyze uploaded PDFs and generate accurate estimates.",
-      impact: "Reduced estimation time by 50%, improved accuracy by 40%, and enabled instant PDF report generation for project managers.",
-      tools: ["Python", "Django", "React.js", "OpenAI", "PDF Processing", "RAG"],
-      githubUrl: "https://github.com/quixastechnology/EstimateXtract_AI",
-      images: [extractXtractNew]
-    },
-    {
-      id: "6",
-      title: "News Aggregator Platform",
-      category: "Full Stack Projects",
-      description: "Personalized news platform with recommendation engine and social features",
-      challenge: "Users wanted a centralized platform to access news from multiple sources with personalized recommendations based on their interests.",
-      solution: "Built a MERN stack application with News API integration. Implemented like/unlike functionality, commenting system, and ML-based recommendation algorithm for personalized content delivery.",
-      impact: "Achieved 5000+ active users, 85% user retention rate, and 3-minute average session duration.",
-      tools: ["React.js", "Node.js", "Express.js", "MongoDB", "News API", "ML Recommendations"],
-      githubUrl: "https://github.com/ATIF2001/News-aggregator",
-      images: [newsWebsite1New, newsWebsite2New]
-    },
-    {
-      id: "7",
-      title: "Felix Rental - Booking Engine",
-      category: "Full Stack Projects",
-      description: "Custom booking engine for short-term property rentals with payment integration",
-      challenge: "Property managers needed a comprehensive booking system to manage multiple properties, automate bookings, and process payments securely.",
-      solution: "Developed a full-featured booking engine using WeWeb and Xano with Stripe integration. Implemented property management dashboard, automated booking workflows, and Bed24 API integration.",
-      impact: "Increased rental booking revenue by 30%+, reduced manual data entry by 75%, and improved booking conversion rates.",
-      tools: ["WeWeb", "Xano", "Node.js", "React.js", "Bed24 API", "Stripe"],
-      liveUrl: "https://www.awaystayplay.com/",
-      images: [bookingEngineNew, bookingEngine2]
-    },
-    {
-      id: "8",
-      title: "Property Management Dashboard",
-      category: "Full Stack Projects",
-      description: "Comprehensive property management system with automated workflows",
-      challenge: "Felix needed tools to streamline property addition, deletion, and synchronization across multiple booking platforms.",
-      solution: "Built management tools using WeWeb, Xano, and React with AWS S3 for storage. Integrated n8n and Make.com for automated data synchronization with Bed24 and other platforms.",
-      impact: "Reduced manual work by 80%, eliminated data entry costs, and enabled property owners to self-manage listings.",
-      tools: ["WeWeb", "Xano", "n8n", "Make.com", "React.js", "AWS S3"],
-      liveUrl: "https://www.propertiesgetfelix.com.au/add_general_property_info",
-      images: [felixDashboard1New, felixDashboard2New]
-    },
-    {
-      id: "9",
-      title: "LuxeReply AI - Review Management SaaS",
-      category: "Full Stack Projects",
-      description: "Multi-tenant SaaS platform for AI-powered review management across locations",
-      challenge: "Businesses needed a centralized platform to manage reviews from multiple locations and channels with AI-powered response generation.",
-      solution: "Developed a comprehensive SaaS using WeWeb, Xano, Django, and n8n. Implemented multi-tenancy, role-based access, channel integrations (Google, Facebook, Yelp), and AI response generation.",
-      impact: "Secured $250k seed funding, onboarded 50+ businesses, improved review response rates by 72%, and reduced response time by 90%.",
-      tools: ["WeWeb", "Xano", "Django", "n8n", "AI Integration", "Multi-tenancy"],
-      liveUrl: "https://www.luxereply.com/",
-      images: [luxereplyDashboard1New, luxereplyDashboard2New, luxereplyReviewsNew]
-    },
-
-    // Bubble.io Projects
-    {
-      id: "10",
-      title: "Quixas Technology RAG Chatbot",
-      category: "Bubble.io Projects",
-      description: "RAG-based AI chatbot integrated into company website for intelligent customer support",
-      challenge: "Quixas needed an intelligent chatbot that could answer customer queries about their services using company-specific knowledge.",
-      solution: "Built and integrated a RAG-based chatbot into the Bubble.io company website, enabling contextual responses based on company information and services.",
-      impact: "Improved customer engagement, reduced support queries by 35%, and provided 24/7 automated assistance.",
-      tools: ["Bubble.io", "RAG", "AI Chatbot", "Vector Store"],
-      liveUrl: "https://quixasit.com/",
-      images: [quixasLandingNew, quixasDashboard]
-    },
-
-    // Additional Full Stack Projects
-    {
-      id: "11",
-      title: "Jovera Group - Corporate Website",
-      category: "Full Stack Projects",
-      description: "Fully dynamic corporate website with custom CRM integration for content management",
-      challenge: "Jovera Group, a multi-service conglomerate in UAE, needed a professional, fully dynamic bilingual website that could be managed by their team without developer intervention.",
-      solution: "Built a dynamic corporate website using React.js, Node.js, and MongoDB. Developed a custom content management module within Jovera's existing CRM system, enabling the team to update all website content — pages, services, media, and announcements — in real-time.",
-      impact: "Delivered a fully dynamic website with zero downtime content updates, enabled non-technical staff to manage content, and improved online presence for the group's multiple business divisions.",
-      tools: ["React.js", "Node.js", "MongoDB", "Custom CRM", "REST API", "Dynamic CMS"],
-      liveUrl: "https://www.jovera.ae/",
-      images: [joveraGroup]
-    },
-    {
-      id: "12",
-      title: "MK4 Events - Luxury Wedding Planning",
-      category: "Full Stack Projects",
-      description: "Elegant website for luxury event architecture and bespoke wedding planning services",
-      challenge: "MK4 Events needed a sophisticated, visually stunning website to showcase their luxury wedding and event planning services while conveying elegance and professionalism to high-end clients.",
-      solution: "Built a modern, responsive website with stunning visuals, service showcases, project galleries, and seamless contact integration. Implemented dynamic content sections for corporate, wedding, and outdoor event categories.",
-      impact: "Enhanced online brand presence, improved client engagement, and provided a professional platform for potential clients to explore services and connect directly.",
-      tools: ["React.js", "Node.js", "Responsive Design", "Animation", "CMS"],
-      liveUrl: "https://www.mk4events.com/",
-      images: [mk4events]
     }
   ];
 

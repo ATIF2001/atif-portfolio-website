@@ -48,12 +48,12 @@ const Hero = () => {
           </h1>
           
           <h2 className="text-lg sm:text-2xl md:text-3xl text-muted-foreground mb-8 animate-fade-up" style={{ animationDelay: "0.2s" }}>
-            Full Stack Developer & AI Automation Expert
+            Frontend Expert | Full Stack Developer | AI Integration Specialist
           </h2>
           
           <p className="text-base sm:text-lg md:text-xl text-muted-foreground mb-8 max-w-2xl mx-auto px-2 animate-fade-up" style={{ animationDelay: "0.3s" }}>
-            From idea to launch — I build complete products, integrate AI & automation, 
-            and can hire & manage technical teams to deliver your project end-to-end.
+            I craft high-performance frontend experiences, build complete full-stack products, 
+            and integrate AI to deliver intelligent, scalable solutions end-to-end.
           </p>
           
           <div className="flex flex-wrap justify-center gap-2 sm:gap-3 mb-10 px-2 animate-fade-up" style={{ animationDelay: "0.4s" }}>
