@@ -57,7 +57,7 @@ const Hero = () => {
           </p>
           
           <div className="flex flex-wrap justify-center gap-2 sm:gap-3 mb-10 px-2 animate-fade-up" style={{ animationDelay: "0.4s" }}>
-            {["React", "Node.js", "MongoDB", "Python", "WeWeb", "Xano", "n8n", "Make.com", "OpenAI", "Supabase"].map((tech) => (
+            {["React", "Node.js", "PostgreSQL", "Laravel", "MongoDB", "Python", "WeWeb", "Xano", "n8n", "Make.com", "OpenAI", "Supabase"].map((tech) => (
               <span 
                 key={tech}
                 className="px-3 py-1.5 sm:px-4 sm:py-2 bg-primary/10 border border-primary/30 rounded-full text-xs sm:text-sm font-medium text-primary"
