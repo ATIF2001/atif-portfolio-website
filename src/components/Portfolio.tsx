@@ -22,6 +22,7 @@ import felixDashboard2New from "@/assets/projects/felix-dashboard-2-new.jpg";
 import quixasLandingNew from "@/assets/projects/quixas-landing-new.jpg";
 import quixasDashboard from "@/assets/projects/quixas-dashboard.jpg";
 import joveraGroup from "@/assets/projects/jovera-group.png";
+import mk4events from "@/assets/projects/mk4events.png";
 
 const Portfolio = () => {
   const [activeFilter, setActiveFilter] = useState("All");
