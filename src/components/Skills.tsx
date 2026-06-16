@@ -20,7 +20,7 @@ const Skills = () => {
     {
       title: "Frameworks & Libraries",
       icon: <Layers className="w-5 h-5" />,
-      skills: ["React.js", "Node.js", "Express.js", "Django", "Laravel"],
+      skills: ["Next.js", "React.js", "Node.js", "Express.js", "Django", "Laravel"],
       color: "primary"
     },
     {
