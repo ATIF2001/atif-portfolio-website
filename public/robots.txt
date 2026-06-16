@@ -13,4 +13,4 @@ Allow: /
 User-agent: *
 Allow: /
 
-Sitemap: https://m-atif.netlify.appsitemap.xml
+Sitemap: https://atif-fullstackdev.vercel.app/sitemap.xml
