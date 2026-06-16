@@ -25,6 +25,9 @@ import joveraGroup from "@/assets/projects/jovera-group.png";
 import mk4events from "@/assets/projects/mk4events.png";
 import vanguardProperties from "@/assets/projects/vanguard-properties.png";
 import joveraCrm from "@/assets/projects/jovera-crm.png";
+import joveraCrmProperties from "@/assets/projects/jovera-crm-properties.png";
+import joveraCrmAgents from "@/assets/projects/jovera-crm-agents.png";
+import joveraCrmWeb from "@/assets/projects/jovera-crm-web.png";
 
 const Portfolio = () => {
   const [activeFilter, setActiveFilter] = useState("All");
