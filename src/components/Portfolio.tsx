@@ -23,6 +23,7 @@ import quixasLandingNew from "@/assets/projects/quixas-landing-new.jpg";
 import quixasDashboard from "@/assets/projects/quixas-dashboard.jpg";
 import joveraGroup from "@/assets/projects/jovera-group.png";
 import mk4events from "@/assets/projects/mk4events.png";
+import vanguardProperties from "@/assets/projects/vanguard-properties.png";
 
 const Portfolio = () => {
   const [activeFilter, setActiveFilter] = useState("All");
@@ -114,6 +115,18 @@ const Portfolio = () => {
       tools: ["React.js", "Node.js", "Responsive Design", "Animation", "CMS"],
       liveUrl: "https://www.mk4events.com/",
       images: [mk4events]
+    },
+    {
+      id: "13",
+      title: "Vanguard Properties - Multi-Tenant Real Estate Platform",
+      category: "Full Stack Projects",
+      description: "Multi-website real estate platform with centralized CRM for managing properties, leads, and agents",
+      challenge: "Vanguard Properties needed a scalable system to run multiple branded real estate websites in UAE, each fully manageable from a single CRM where super admins could create admins, agents, properties, and capture leads from every site.",
+      solution: "Architected a multi-tenant platform powering multiple property websites (like vanguardproperty.ae) from one centralized CRM (crm.joveraits.ae). Built website templates in Next.js/React with dynamic property listings, multilingual support, booking & contact flows, and integrated a custom CRM with role-based dashboards (Super Admin, Admin, Agent) to manage websites, properties, blogs, agents, and inbound leads in real time.",
+      impact: "Enabled the company to launch new branded property websites in days instead of weeks, centralized lead capture across all sites, and gave agents and admins a single source of truth for every property and inquiry.",
+      tools: ["Next.js", "React.js", "Node.js", "MongoDB", "Multi-Tenant CRM", "REST API", "Role-Based Access"],
+      liveUrl: "https://www.vanguardproperty.ae/",
+      images: [vanguardProperties]
     },
 
     // Bubble.io Projects
