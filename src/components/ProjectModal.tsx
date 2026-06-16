@@ -50,11 +50,11 @@ const ProjectModal = ({ project, isOpen, onClose }: ProjectModalProps) => {
           {/* Image Slider */}
           {project.images && project.images.length > 0 && (
             <div className="relative">
-              <div className="aspect-video rounded-lg overflow-hidden bg-muted">
+              <div className="rounded-lg overflow-hidden bg-muted flex items-center justify-center max-h-[70vh]">
                 <img
                   src={project.images[currentImageIndex]}
                   alt={`${project.title} screenshot ${currentImageIndex + 1}`}
-                  className="w-full h-full object-cover"
+                  className="w-full h-auto max-h-[70vh] object-contain"
                   loading="lazy"
                 />
               </div>
