@@ -14,7 +14,7 @@ const Skills = () => {
     {
       title: "Languages",
       icon: <Code className="w-5 h-5" />,
-      skills: ["Python", "JavaScript/ES6+", "PHP", "SQL", "HTML5", "CSS3"],
+      skills: ["TypeScript", "JavaScript/ES6+", "Python", "PHP", "SQL", "HTML5", "CSS3"],
       color: "primary"
     },
     {

@@ -25,6 +25,9 @@ import joveraGroup from "@/assets/projects/jovera-group.png";
 import mk4events from "@/assets/projects/mk4events.png";
 import vanguardProperties from "@/assets/projects/vanguard-properties.png";
 import joveraCrm from "@/assets/projects/jovera-crm.png";
+import joveraCrmProperties from "@/assets/projects/jovera-crm-properties.png";
+import joveraCrmAgents from "@/assets/projects/jovera-crm-agents.png";
+import joveraCrmWeb from "@/assets/projects/jovera-crm-web.png";
 
 const Portfolio = () => {
   const [activeFilter, setActiveFilter] = useState("All");
@@ -139,7 +142,7 @@ const Portfolio = () => {
       impact: "Replaced 3+ disjointed tools with one platform, cut new website launch time from weeks to days, centralized lead capture across all properties, and gave agents and admins a single source of truth.",
       tools: ["Next.js", "Node.js", "MongoDB", "Multi-Tenant", "Role-Based Access", "REST API", "CRM"],
       liveUrl: "https://crm.joveraits.ae/",
-      images: [joveraCrm]
+      images: [joveraCrm, joveraCrmProperties, joveraCrmAgents, joveraCrmWeb]
     },
 
     // Bubble.io Projects
