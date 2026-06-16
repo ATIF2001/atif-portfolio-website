@@ -135,14 +135,14 @@ const ProjectCard = ({ project, onTitleClick }: ProjectCardProps) => {
       {/* Content */}
       <div className="relative p-6 space-y-4 flex-1 flex flex-col">
         {/* Title and Description */}
-        <div>
+        <div className="min-h-[5.5rem]">
           <h3 
-            className="text-xl font-bold mb-2 group-hover:text-primary transition-colors line-clamp-2 cursor-pointer"
+            className="text-xl font-bold mb-2 group-hover:text-primary transition-colors line-clamp-2 cursor-pointer min-h-[3.5rem]"
             onClick={() => onTitleClick(project)}
           >
             {project.title}
           </h3>
-          <p className="text-muted-foreground text-sm leading-relaxed line-clamp-2">
+          <p className="text-muted-foreground text-sm leading-relaxed line-clamp-2 min-h-[2.5rem]">
             {project.description}
           </p>
         </div>
@@ -153,7 +153,7 @@ const ProjectCard = ({ project, onTitleClick }: ProjectCardProps) => {
             <div className="w-1 h-12 bg-gradient-primary rounded-full mt-1" />
             <div className="flex-1">
               <h4 className="text-xs font-semibold text-primary mb-1 uppercase tracking-wider">Challenge</h4>
-              <p className="text-xs text-muted-foreground line-clamp-2">{project.challenge}</p>
+              <p className="text-xs text-muted-foreground line-clamp-2 min-h-[2rem]">{project.challenge}</p>
             </div>
           </div>
           
@@ -161,13 +161,13 @@ const ProjectCard = ({ project, onTitleClick }: ProjectCardProps) => {
             <div className="w-1 h-12 bg-gradient-primary rounded-full mt-1 opacity-60" />
             <div className="flex-1">
               <h4 className="text-xs font-semibold text-primary mb-1 uppercase tracking-wider">Solution</h4>
-              <p className="text-xs text-muted-foreground line-clamp-2">{project.solution}</p>
+              <p className="text-xs text-muted-foreground line-clamp-2 min-h-[2rem]">{project.solution}</p>
             </div>
           </div>
         </div>
         
         {/* Tech Stack */}
-        <div className="space-y-2">
+        <div className="space-y-2 min-h-[5rem]">
           <h4 className="text-xs font-semibold text-muted-foreground uppercase tracking-wider">Tech Stack</h4>
           <div className="flex flex-wrap gap-1.5">
             {project.tools.slice(0, 5).map((tool, index) => (
@@ -189,6 +189,7 @@ const ProjectCard = ({ project, onTitleClick }: ProjectCardProps) => {
             )}
           </div>
         </div>
+
         
         {/* Action Buttons */}
         <div className="flex gap-2 pt-2 mt-auto">
