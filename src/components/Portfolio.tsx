@@ -24,6 +24,7 @@ import quixasDashboard from "@/assets/projects/quixas-dashboard.jpg";
 import joveraGroup from "@/assets/projects/jovera-group.png";
 import mk4events from "@/assets/projects/mk4events.png";
 import vanguardProperties from "@/assets/projects/vanguard-properties.png";
+import joveraCrm from "@/assets/projects/jovera-crm.png";
 
 const Portfolio = () => {
   const [activeFilter, setActiveFilter] = useState("All");
@@ -127,6 +128,18 @@ const Portfolio = () => {
       tools: ["Next.js", "React.js", "Node.js", "MongoDB", "Multi-Tenant CRM", "REST API", "Role-Based Access"],
       liveUrl: "https://www.vanguardproperty.ae/",
       images: [vanguardProperties]
+    },
+    {
+      id: "14",
+      title: "Jovera Real Estate CRM - Multi-Website & Lead Management",
+      category: "Full Stack Projects",
+      description: "Centralized real estate CRM to manage multiple websites, agents, properties, blogs, and inbound leads",
+      challenge: "Jovera needed one CRM to operate multiple branded real estate websites in UAE — managing properties, blogs, agents, lead routing, newsletters, and SEO from a single place, with role-based access for Super Admins, Admins, and Agents.",
+      solution: "Built a full real estate CRM (crm.joveraits.ae) using Next.js, Node.js, and MongoDB. Implemented modules for Web Management (multi-site control), Properties, Blogs, Lead Management, Invite Agent, Newsletter, Property Submissions, SEO, and App Management. Each connected website pulls its content dynamically from the CRM and pushes leads back in real time.",
+      impact: "Replaced 3+ disjointed tools with one platform, cut new website launch time from weeks to days, centralized lead capture across all properties, and gave agents and admins a single source of truth.",
+      tools: ["Next.js", "Node.js", "MongoDB", "Multi-Tenant", "Role-Based Access", "REST API", "CRM"],
+      liveUrl: "https://crm.joveraits.ae/",
+      images: [joveraCrm]
     },
 
     // Bubble.io Projects
