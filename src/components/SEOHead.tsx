@@ -12,8 +12,8 @@ const SEOHead = ({
   title = "Muhammad Atif - Full Stack Developer | React, Node.js, n8n, WeWeb, Xano Expert",
   description = "Hire Muhammad Atif — Full Stack Developer & AI Automation Expert specializing in React.js, Node.js, Python, WeWeb, Xano, n8n, Make.com, MongoDB, and Supabase. Building scalable SaaS products, workflow automations, and API integrations.",
   keywords = "full stack developer, hire react developer, hire node.js developer, freelance developer, WeWeb developer, Xano developer, n8n automation expert, Make.com developer, AI automation engineer, React.js developer, Node.js developer, Python developer, MongoDB developer, Supabase developer, SaaS developer, API integration specialist, workflow automation, low-code developer, bubble.io developer, Django developer, AI chatbot developer, RAG developer, OpenAI integration, full stack engineer for hire, web developer portfolio, Muhammad Atif developer",
-  canonicalUrl = "https://atif-web.lovable.app",
-  ogImage = "https://m-atif.netlify.appog-image.png",
+  canonicalUrl = "https://atif-fullstackdev.vercel.app/",
+  ogImage = "https://atif-fullstackdev.vercel.app/og-image.png",
 }: SEOHeadProps) => {
   const structuredData = {
     "@context": "https://schema.org",
