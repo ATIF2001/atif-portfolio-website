@@ -142,7 +142,7 @@ const Portfolio = () => {
       impact: "Replaced 3+ disjointed tools with one platform, cut new website launch time from weeks to days, centralized lead capture across all properties, and gave agents and admins a single source of truth.",
       tools: ["Next.js", "Node.js", "MongoDB", "Multi-Tenant", "Role-Based Access", "REST API", "CRM"],
       liveUrl: "https://crm.joveraits.ae/",
-      images: [joveraCrm]
+      images: [joveraCrm, joveraCrmProperties, joveraCrmAgents, joveraCrmWeb]
     },
 
     // Bubble.io Projects
