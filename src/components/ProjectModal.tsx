@@ -41,9 +41,9 @@ const ProjectModal = ({ project, isOpen, onClose }: ProjectModalProps) => {
 
   return (
     <Dialog open={isOpen} onOpenChange={onClose}>
-      <DialogContent className="max-w-4xl max-h-[90vh] overflow-y-auto">
+      <DialogContent className="max-w-4xl max-h-[90vh] overflow-y-auto w-[95vw] sm:w-auto p-4 sm:p-6">
         <DialogHeader>
-          <DialogTitle className="text-2xl font-bold">{project.title}</DialogTitle>
+          <DialogTitle className="text-xl sm:text-2xl font-bold leading-tight">{project.title}</DialogTitle>
         </DialogHeader>
 
         <div className="space-y-6 mt-4">
@@ -98,12 +98,12 @@ const ProjectModal = ({ project, isOpen, onClose }: ProjectModalProps) => {
           )}
 
           {/* Category and Impact */}
-          <div className="flex gap-2">
-            <span className="px-3 py-1 bg-primary/10 text-primary rounded-full text-sm">
+          <div className="flex flex-wrap gap-2">
+            <span className="px-3 py-1 bg-primary/10 text-primary rounded-full text-xs sm:text-sm">
               {project.category}
             </span>
             {project.impact && (
-              <span className="px-3 py-1 bg-secondary text-secondary-foreground rounded-full text-sm">
+              <span className="px-3 py-1 bg-secondary text-secondary-foreground rounded-full text-xs sm:text-sm line-clamp-2">
                 {project.impact}
               </span>
             )}
@@ -119,24 +119,24 @@ const ProjectModal = ({ project, isOpen, onClose }: ProjectModalProps) => {
 
           {/* Challenge */}
           <div className="space-y-2">
-            <h3 className="font-semibold text-lg">Challenge</h3>
-            <p className="text-muted-foreground">{project.challenge}</p>
+            <h3 className="font-semibold text-base sm:text-lg">Challenge</h3>
+            <p className="text-muted-foreground text-sm sm:text-base leading-relaxed">{project.challenge}</p>
           </div>
 
           {/* Solution */}
           <div className="space-y-2">
-            <h3 className="font-semibold text-lg">Solution</h3>
-            <p className="text-muted-foreground">{project.solution}</p>
+            <h3 className="font-semibold text-base sm:text-lg">Solution</h3>
+            <p className="text-muted-foreground text-sm sm:text-base leading-relaxed">{project.solution}</p>
           </div>
 
           {/* Tech Stack */}
           <div className="space-y-2">
-            <h3 className="font-semibold text-lg">Tech Stack</h3>
+            <h3 className="font-semibold text-base sm:text-lg">Tech Stack</h3>
             <div className="flex flex-wrap gap-2">
               {project.tools.map((tool) => (
                 <span
                   key={tool}
-                  className="px-3 py-1 bg-secondary text-secondary-foreground rounded-md text-sm"
+                  className="px-2 sm:px-3 py-1 bg-secondary text-secondary-foreground rounded-md text-xs sm:text-sm"
                 >
                   {tool}
                 </span>
