@@ -28,6 +28,7 @@ import joveraCrm from "@/assets/projects/jovera-crm.png";
 import joveraCrmProperties from "@/assets/projects/jovera-crm-properties.png";
 import joveraCrmAgents from "@/assets/projects/jovera-crm-agents.png";
 import joveraCrmWeb from "@/assets/projects/jovera-crm-web.png";
+import uniqGoldEcommerce from "@/assets/projects/uniqgold-ecommerce.png.asset.json";
 
 const Portfolio = () => {
   const [activeFilter, setActiveFilter] = useState("All");
