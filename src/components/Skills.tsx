@@ -32,7 +32,7 @@ const Skills = () => {
     {
       title: "Cloud & DevOps",
       icon: <Cloud className="w-5 h-5" />,
-      skills: ["AWS S3", "Docker", "Git", "GitHub", "CI/CD"],
+      skills: ["AWS", "AWS S3", "Docker", "Git", "GitHub", "CI/CD"],
       color: "primary"
     },
     {
