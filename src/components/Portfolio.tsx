@@ -28,7 +28,7 @@ import joveraCrm from "@/assets/projects/jovera-crm.png";
 import joveraCrmProperties from "@/assets/projects/jovera-crm-properties.png";
 import joveraCrmAgents from "@/assets/projects/jovera-crm-agents.png";
 import joveraCrmWeb from "@/assets/projects/jovera-crm-web.png";
-import uniqGoldEcommerce from "@/assets/projects/uniqgold-ecommerce.png.asset.json";
+import uniqGoldEcommerce from "@/assets/projects/uniqgold-ecommerce.png";
 
 const Portfolio = () => {
   const [activeFilter, setActiveFilter] = useState("All");
@@ -155,7 +155,7 @@ const Portfolio = () => {
       impact: "Enabled online sales across five luxury brands, streamlined payment processing with integrated gateways, improved customer engagement through chatbot integration, and provided a scalable platform for future brand expansion.",
       tools: ["WordPress", "WooCommerce", "Custom Plugin", "Payment Integration", "Chatbot"],
       liveUrl: "https://uniqgold.ae/",
-      images: [uniqGoldEcommerce.url]
+      images: [uniqGoldEcommerce]
     },
 
     // Bubble.io Projects
