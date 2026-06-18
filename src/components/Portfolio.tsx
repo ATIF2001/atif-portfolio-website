@@ -28,6 +28,7 @@ import joveraCrm from "@/assets/projects/jovera-crm.png";
 import joveraCrmProperties from "@/assets/projects/jovera-crm-properties.png";
 import joveraCrmAgents from "@/assets/projects/jovera-crm-agents.png";
 import joveraCrmWeb from "@/assets/projects/jovera-crm-web.png";
+import uniqGoldEcommerce from "@/assets/projects/uniqgold-ecommerce.png.asset.json";
 
 const Portfolio = () => {
   const [activeFilter, setActiveFilter] = useState("All");
@@ -143,6 +144,18 @@ const Portfolio = () => {
       tools: ["Next.js", "Node.js", "MongoDB", "Multi-Tenant", "Role-Based Access", "REST API", "CRM"],
       liveUrl: "https://crm.joveraits.ae/",
       images: [joveraCrm, joveraCrmProperties, joveraCrmAgents, joveraCrmWeb]
+    },
+    {
+      id: "15",
+      title: "Uniq Gold E-commerce",
+      category: "Full Stack Projects",
+      description: "Luxury e-commerce platform built and maintained with WooCommerce and WordPress",
+      challenge: "Uniq Gold needed a robust e-commerce platform to showcase and sell luxury jewelry, watches, bags, and perfumes across multiple brands with seamless payment processing and customer engagement.",
+      solution: "Built and maintained a comprehensive e-commerce solution using WordPress and WooCommerce. Integrated third-party payment gateways for secure transactions, developed custom plugins to extend functionality, and implemented a chatbot for real-time customer interaction and support.",
+      impact: "Enabled online sales across five luxury brands, streamlined payment processing with integrated gateways, improved customer engagement through chatbot integration, and provided a scalable platform for future brand expansion.",
+      tools: ["WordPress", "WooCommerce", "Custom Plugin", "Payment Integration", "Chatbot"],
+      liveUrl: "https://uniqgold.ae/",
+      images: [uniqGoldEcommerce.url]
     },
 
     // Bubble.io Projects
