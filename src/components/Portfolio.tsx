@@ -76,7 +76,7 @@ const Portfolio = () => {
       impact: "Reduced manual work by 80%, eliminated data entry costs, and enabled property owners to self-manage listings.",
       tools: ["WeWeb", "Xano", "n8n", "Make.com", "React.js", "AWS S3"],
       liveUrl: "https://www.propertiesgetfelix.com.au/add_general_property_info",
-      images: [felixDashboard1New, felixDashboard2New]
+      images: [felixPropertyDashboard, felixDashboard1New, felixDashboard2New]
     },
     {
       id: "5",
