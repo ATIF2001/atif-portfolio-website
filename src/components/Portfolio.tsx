@@ -29,6 +29,9 @@ import joveraCrmProperties from "@/assets/projects/jovera-crm-properties.png";
 import joveraCrmAgents from "@/assets/projects/jovera-crm-agents.png";
 import joveraCrmWeb from "@/assets/projects/jovera-crm-web.png";
 import uniqGoldEcommerce from "@/assets/projects/uniqgold-ecommerce.png";
+import furniroAsset from "@/assets/projects/furniro-ecommerce.jpg.asset.json";
+
+const furniroEcommerce = furniroAsset.url;
 
 const Portfolio = () => {
   const [activeFilter, setActiveFilter] = useState("All");
