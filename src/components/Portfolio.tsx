@@ -29,6 +29,9 @@ import joveraCrmProperties from "@/assets/projects/jovera-crm-properties.png";
 import joveraCrmAgents from "@/assets/projects/jovera-crm-agents.png";
 import joveraCrmWeb from "@/assets/projects/jovera-crm-web.png";
 import uniqGoldEcommerce from "@/assets/projects/uniqgold-ecommerce.png";
+import furniroAsset from "@/assets/projects/furniro-ecommerce.jpg.asset.json";
+
+const furniroEcommerce = furniroAsset.url;
 
 const Portfolio = () => {
   const [activeFilter, setActiveFilter] = useState("All");
@@ -156,6 +159,18 @@ const Portfolio = () => {
       tools: ["WordPress", "WooCommerce", "Custom Plugin", "Payment Integration", "Chatbot"],
       liveUrl: "https://uniqgold.ae/",
       images: [uniqGoldEcommerce]
+    },
+    {
+      id: "16",
+      title: "Furniro - Full Stack Furniture E-commerce",
+      category: "Full Stack Projects",
+      description: "Modern furniture e-commerce store with Next.js frontend and Laravel (PHP) REST API backend",
+      challenge: "Building a complete e-commerce experience — product catalog, variants, cart, checkout, and order management — required a fast, SEO-friendly storefront paired with a secure, well-structured backend API.",
+      solution: "Developed the storefront in Next.js with server-side rendering, responsive product listings, product detail pages, cart and checkout flows. Built the backend as a Laravel PHP REST API handling products, categories, cart, orders, and authentication with MySQL. Frontend deployed on Vercel, backend hosted on Railway.",
+      impact: "Delivered a production-ready, mobile-first store with fast page loads, clean API separation, and an easily extendable admin/product data layer.",
+      tools: ["Next.js", "React.js", "TypeScript", "Laravel", "PHP", "MySQL", "REST API", "Vercel", "Railway"],
+      githubUrl: "https://github.com/ATIF2001/FurnitureEcommerceWeb",
+      images: [furniroEcommerce]
     },
 
     // Bubble.io Projects
