@@ -30,8 +30,10 @@ import joveraCrmAgents from "@/assets/projects/jovera-crm-agents.png";
 import joveraCrmWeb from "@/assets/projects/jovera-crm-web.png";
 import uniqGoldEcommerce from "@/assets/projects/uniqgold-ecommerce.png";
 import furniroAsset from "@/assets/projects/furniro-ecommerce.jpg.asset.json";
+import felixPropertyDashboardAsset from "@/assets/projects/felix-property-dashboard.jpg.asset.json";
 
 const furniroEcommerce = furniroAsset.url;
+const felixPropertyDashboard = felixPropertyDashboardAsset.url;
 
 const Portfolio = () => {
   const [activeFilter, setActiveFilter] = useState("All");
@@ -74,7 +76,7 @@ const Portfolio = () => {
       impact: "Reduced manual work by 80%, eliminated data entry costs, and enabled property owners to self-manage listings.",
       tools: ["WeWeb", "Xano", "n8n", "Make.com", "React.js", "AWS S3"],
       liveUrl: "https://www.propertiesgetfelix.com.au/add_general_property_info",
-      images: [felixDashboard1New, felixDashboard2New]
+      images: [felixPropertyDashboard, felixDashboard1New, felixDashboard2New]
     },
     {
       id: "5",
