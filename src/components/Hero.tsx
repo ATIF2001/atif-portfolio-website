@@ -43,31 +43,32 @@ const Hero = () => {
       
       <div className="container mx-auto px-4 relative z-10">
         <div className="max-w-4xl mx-auto text-center">
-          <h1 className="text-3xl sm:text-5xl md:text-7xl font-bold mb-6 animate-fade-up">
-            Your Vision, <span className="text-primary">Fully Built</span>
+          <h1 className="text-3xl sm:text-5xl md:text-7xl font-bold mb-6 animate-fade-up [animation-fill-mode:backwards]">
+            Your Vision, <span className="text-gradient-animated">Fully Built</span>
           </h1>
           
-          <h2 className="text-lg sm:text-2xl md:text-3xl text-muted-foreground mb-8 animate-fade-up" style={{ animationDelay: "0.2s" }}>
+          <h2 className="text-lg sm:text-2xl md:text-3xl text-muted-foreground mb-8 animate-fade-up [animation-fill-mode:backwards]" style={{ animationDelay: "0.2s" }}>
             Frontend Expert | Full Stack Developer | AI Integration Specialist
           </h2>
           
-          <p className="text-base sm:text-lg md:text-xl text-muted-foreground mb-8 max-w-2xl mx-auto px-2 animate-fade-up" style={{ animationDelay: "0.3s" }}>
+          <p className="text-base sm:text-lg md:text-xl text-muted-foreground mb-8 max-w-2xl mx-auto px-2 animate-fade-up [animation-fill-mode:backwards]" style={{ animationDelay: "0.3s" }}>
             I craft high-performance frontend experiences, build complete full-stack products, 
             and integrate AI to deliver intelligent, scalable solutions end-to-end.
           </p>
           
-          <div className="flex flex-wrap justify-center gap-2 sm:gap-3 mb-10 px-2 animate-fade-up" style={{ animationDelay: "0.4s" }}>
-            {["TypeScript", "JavaScript", "React", "Node.js", "AWS", "PostgreSQL", "Laravel", "MongoDB", "Python", "WeWeb", "Xano", "n8n", "Make.com", "OpenAI", "Supabase"].map((tech) => (
+          <div className="flex flex-wrap justify-center gap-2 sm:gap-3 mb-10 px-2">
+            {["TypeScript", "JavaScript", "React", "Node.js", "AWS", "PostgreSQL", "Laravel", "MongoDB", "Python", "WeWeb", "Xano", "n8n", "Make.com", "OpenAI", "Supabase"].map((tech, i) => (
               <span 
                 key={tech}
-                className="px-3 py-1.5 sm:px-4 sm:py-2 bg-primary/10 border border-primary/30 rounded-full text-xs sm:text-sm font-medium text-primary"
+                style={{ animationDelay: `${0.4 + i * 0.05}s` }}
+                className="px-3 py-1.5 sm:px-4 sm:py-2 bg-primary/10 border border-primary/30 rounded-full text-xs sm:text-sm font-medium text-primary animate-scale-in [animation-fill-mode:backwards] transition-all duration-300 hover:scale-110 hover:bg-primary/20 hover:border-primary hover:shadow-glow cursor-default"
               >
                 {tech}
               </span>
             ))}
           </div>
           
-          <div className="flex flex-col sm:flex-row gap-4 justify-center items-center animate-fade-up" style={{ animationDelay: "0.5s" }}>
+          <div className="flex flex-col sm:flex-row gap-4 justify-center items-center animate-fade-up [animation-fill-mode:backwards]" style={{ animationDelay: "1.2s" }}>
             <Button 
               size="lg" 
               className="group relative overflow-hidden bg-gradient-primary hover:shadow-glow transition-all duration-300 px-8"
