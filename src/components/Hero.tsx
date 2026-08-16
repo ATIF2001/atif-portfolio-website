@@ -48,7 +48,7 @@ const Hero = () => {
           </h1>
           
           <h2 className="text-lg sm:text-2xl md:text-3xl text-muted-foreground mb-8 animate-fade-up [animation-fill-mode:backwards]" style={{ animationDelay: "0.2s" }}>
-            Frontend Expert | Full Stack Developer | AI Integration Specialist
+            Full Stack Developer | Software Engineer | AI Integrations
           </h2>
           
           <p className="text-base sm:text-lg md:text-xl text-muted-foreground mb-8 max-w-2xl mx-auto px-2 animate-fade-up [animation-fill-mode:backwards]" style={{ animationDelay: "0.3s" }}>
