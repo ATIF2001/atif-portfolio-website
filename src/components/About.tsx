@@ -78,7 +78,7 @@ const About = () => {
               {highlights.map((item, index) => (
                 <div 
                   key={index}
-                  className="group p-4 bg-card border border-border rounded-lg hover:border-primary/50 transition-all duration-300 hover:shadow-lg"
+                  className="group p-4 bg-card border border-border rounded-lg hover-lift gradient-ring"
                   style={{ animationDelay: `${index * 0.1}s` }}
                 >
                   <div className="text-primary mb-2 group-hover:scale-110 transition-transform duration-300">
