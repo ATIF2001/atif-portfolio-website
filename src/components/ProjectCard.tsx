@@ -34,7 +34,7 @@ const ProjectCard = ({ project, onTitleClick }: ProjectCardProps) => {
   };
 
   return (
-    <div className="group relative bg-card border border-border rounded-2xl overflow-hidden hover:shadow-2xl transition-all duration-500 h-full flex flex-col">
+    <div className="group relative bg-card border border-border rounded-2xl overflow-hidden h-full flex flex-col hover-lift gradient-ring shine">
       {/* Gradient overlay on hover */}
       <div className="absolute inset-0 bg-gradient-to-br from-primary/5 via-transparent to-accent/5 opacity-0 group-hover:opacity-100 transition-opacity duration-500" />
       
@@ -45,7 +45,7 @@ const ProjectCard = ({ project, onTitleClick }: ProjectCardProps) => {
             <img 
               src={images[currentImageIndex]} 
               alt={`${project.title} - Image ${currentImageIndex + 1}`}
-              className="w-full h-full object-cover transition-transform duration-700"
+              className="w-full h-full object-cover transition-transform duration-700 group-hover:scale-105"
               loading="lazy"
             />
             <div className="absolute inset-0 bg-gradient-to-t from-background via-background/20 to-transparent opacity-60" />
