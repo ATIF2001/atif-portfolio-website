@@ -74,7 +74,7 @@ const Skills = () => {
             {skillCategories.map((category, index) => (
               <div 
                 key={index}
-                className="group bg-card border border-border rounded-xl p-6 hover:border-primary/50 transition-all duration-300 hover:shadow-xl animate-fade-up"
+                className="group bg-card border border-border rounded-xl p-6 hover-lift gradient-ring shine animate-fade-up [animation-fill-mode:backwards]"
                 style={{ animationDelay: `${index * 0.1}s` }}
               >
                 <div className="flex items-center gap-3 mb-4">
