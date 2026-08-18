@@ -1,5 +1,18 @@
 import { Badge } from "@/components/ui/badge";
 import Reveal from "./Reveal";
+import logoReact from "@/assets/tech/react.svg";
+import logoNode from "@/assets/tech/nodedotjs.svg";
+import logoMongo from "@/assets/tech/mongodb.svg";
+import logoPostgres from "@/assets/tech/postgresql.svg";
+import logoPython from "@/assets/tech/python.svg";
+import logoXano from "@/assets/tech/xano.png";
+import logoN8n from "@/assets/tech/n8n.svg";
+import logoMake from "@/assets/tech/make.svg";
+import logoOpenAI from "@/assets/tech/openai.svg";
+import logoBubble from "@/assets/tech/bubble.png";
+import logoWeWeb from "@/assets/tech/weweb.png";
+import logoAWS from "@/assets/tech/amazonwebservices.svg";
+import logoDocker from "@/assets/tech/docker.svg";
 import { Button } from "@/components/ui/button";
 import { 
   Rocket, 
@@ -60,19 +73,19 @@ const Services = () => {
   ];
 
   const techLogos = [
-    { name: "React", icon: "⚛️" },
-    { name: "Node.js", icon: "🟢" },
-    { name: "MongoDB", icon: "🍃" },
-    { name: "PostgreSQL", icon: "🐘" },
-    { name: "Python", icon: "🐍" },
-    { name: "Xano", icon: "⚙️" },
-    { name: "n8n", icon: "🔗" },
-    { name: "Make.com", icon: "⚡" },
-    { name: "OpenAI", icon: "🤖" },
-    { name: "Bubble.io", icon: "🫧" },
-    { name: "WeWeb", icon: "🌐" },
-    { name: "AWS", icon: "☁️" },
-    { name: "Docker", icon: "🐳" }
+    { name: "React", logo: logoReact },
+    { name: "Node.js", logo: logoNode },
+    { name: "MongoDB", logo: logoMongo },
+    { name: "PostgreSQL", logo: logoPostgres },
+    { name: "Python", logo: logoPython },
+    { name: "Xano", logo: logoXano },
+    { name: "n8n", logo: logoN8n },
+    { name: "Make.com", logo: logoMake },
+    { name: "OpenAI", logo: logoOpenAI },
+    { name: "Bubble.io", logo: logoBubble },
+    { name: "WeWeb", logo: logoWeWeb },
+    { name: "AWS", logo: logoAWS },
+    { name: "Docker", logo: logoDocker }
   ];
 
   const scrollToContact = () => {
@@ -106,7 +119,7 @@ const Services = () => {
                   key={index}
                   className="flex items-center gap-2 px-4 py-2 bg-card border border-border rounded-full hover:border-primary/50 hover:bg-primary/5 transition-all duration-300"
                 >
-                  <span className="text-xl">{tech.icon}</span>
+                  <img src={tech.logo} alt={`${tech.name} logo`} loading="lazy" className="w-5 h-5 object-contain" />
                   <span className="text-sm font-medium">{tech.name}</span>
                 </div>
               ))}
