@@ -1,4 +1,5 @@
 import { Badge } from "@/components/ui/badge";
+import Reveal from "./Reveal";
 import { Button } from "@/components/ui/button";
 import { 
   Rocket, 
@@ -135,6 +136,7 @@ const Services = () => {
                   ))}
                 </ul>
               </div>
+              </Reveal>
             ))}
           </div>
 

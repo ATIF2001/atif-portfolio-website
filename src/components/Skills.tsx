@@ -1,4 +1,5 @@
 import { Badge } from "@/components/ui/badge";
+import Reveal from "./Reveal";
 import { 
   Code, 
   Layers, 
@@ -95,6 +96,7 @@ const Skills = () => {
                   ))}
                 </div>
               </div>
+              </Reveal>
             ))}
           </div>
           

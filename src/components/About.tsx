@@ -94,7 +94,7 @@ const About = () => {
           <div className="mt-12 p-8 bg-gradient-secondary rounded-2xl border border-border">
             <div className="grid grid-cols-2 sm:grid-cols-4 gap-4 sm:gap-8 text-center">
               <div>
-                <div className="text-3xl font-bold text-primary mb-2">3+</div>
+                <div className="text-3xl font-bold text-primary mb-2">5+</div>
                 <div className="text-sm text-muted-foreground">Years Experience</div>
               </div>
               <div>
