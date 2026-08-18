@@ -73,19 +73,19 @@ const Services = () => {
   ];
 
   const techLogos = [
-    { name: "React", icon: "⚛️" },
-    { name: "Node.js", icon: "🟢" },
-    { name: "MongoDB", icon: "🍃" },
-    { name: "PostgreSQL", icon: "🐘" },
-    { name: "Python", icon: "🐍" },
-    { name: "Xano", icon: "⚙️" },
-    { name: "n8n", icon: "🔗" },
-    { name: "Make.com", icon: "⚡" },
-    { name: "OpenAI", icon: "🤖" },
-    { name: "Bubble.io", icon: "🫧" },
-    { name: "WeWeb", icon: "🌐" },
-    { name: "AWS", icon: "☁️" },
-    { name: "Docker", icon: "🐳" }
+    { name: "React", logo: logoReact },
+    { name: "Node.js", logo: logoNode },
+    { name: "MongoDB", logo: logoMongo },
+    { name: "PostgreSQL", logo: logoPostgres },
+    { name: "Python", logo: logoPython },
+    { name: "Xano", logo: logoXano },
+    { name: "n8n", logo: logoN8n },
+    { name: "Make.com", logo: logoMake },
+    { name: "OpenAI", logo: logoOpenAI },
+    { name: "Bubble.io", logo: logoBubble },
+    { name: "WeWeb", logo: logoWeWeb },
+    { name: "AWS", logo: logoAWS },
+    { name: "Docker", logo: logoDocker }
   ];
 
   const scrollToContact = () => {
