@@ -1,4 +1,5 @@
 import { Badge } from "@/components/ui/badge";
+import Reveal from "./Reveal";
 import { 
   Code, 
   Layers, 
@@ -72,10 +73,9 @@ const Skills = () => {
           
           <div className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 gap-4 sm:gap-6">
             {skillCategories.map((category, index) => (
+              <Reveal key={index} variant="up" delay={(index % 3) * 120} className="h-full">
               <div 
-                key={index}
-                className="group bg-card border border-border rounded-xl p-6 hover-lift gradient-ring shine animate-fade-up [animation-fill-mode:backwards]"
-                style={{ animationDelay: `${index * 0.1}s` }}
+                className="group h-full bg-card border border-border rounded-xl p-6 hover-lift gradient-ring shine"
               >
                 <div className="flex items-center gap-3 mb-4">
                   <div className="p-2 bg-primary/10 rounded-lg text-primary group-hover:bg-primary group-hover:text-primary-foreground transition-all duration-300">
@@ -96,6 +96,7 @@ const Skills = () => {
                   ))}
                 </div>
               </div>
+              </Reveal>
             ))}
           </div>
           
