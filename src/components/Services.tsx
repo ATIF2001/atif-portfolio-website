@@ -1,5 +1,18 @@
 import { Badge } from "@/components/ui/badge";
 import Reveal from "./Reveal";
+import logoReact from "@/assets/tech/react.svg";
+import logoNode from "@/assets/tech/nodedotjs.svg";
+import logoMongo from "@/assets/tech/mongodb.svg";
+import logoPostgres from "@/assets/tech/postgresql.svg";
+import logoPython from "@/assets/tech/python.svg";
+import logoXano from "@/assets/tech/xano.png";
+import logoN8n from "@/assets/tech/n8n.svg";
+import logoMake from "@/assets/tech/make.svg";
+import logoOpenAI from "@/assets/tech/openai.svg";
+import logoBubble from "@/assets/tech/bubble.png";
+import logoWeWeb from "@/assets/tech/weweb.png";
+import logoAWS from "@/assets/tech/amazonwebservices.svg";
+import logoDocker from "@/assets/tech/docker.svg";
 import { Button } from "@/components/ui/button";
 import { 
   Rocket, 
