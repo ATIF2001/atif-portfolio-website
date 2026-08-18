@@ -276,13 +276,14 @@ const Portfolio = () => {
           {/* Projects Grid */}
           <div className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 gap-4 sm:gap-6">
             {filteredProjects.map((project, index) => (
-              <div 
+              <Reveal
                 key={project.id}
-                className="animate-fade-up"
-                style={{ animationDelay: `${index * 0.1}s` }}
+                variant="up"
+                delay={(index % 3) * 120}
+                className="h-full"
               >
                 <ProjectCard project={project} onTitleClick={handleProjectClick} />
-              </div>
+              </Reveal>
             ))}
           </div>
         </div>
