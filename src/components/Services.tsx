@@ -119,7 +119,7 @@ const Services = () => {
                   key={index}
                   className="flex items-center gap-2 px-4 py-2 bg-card border border-border rounded-full hover:border-primary/50 hover:bg-primary/5 transition-all duration-300"
                 >
-                  <span className="text-xl">{tech.icon}</span>
+                  <img src={tech.logo} alt={`${tech.name} logo`} loading="lazy" className="w-5 h-5 object-contain" />
                   <span className="text-sm font-medium">{tech.name}</span>
                 </div>
               ))}
