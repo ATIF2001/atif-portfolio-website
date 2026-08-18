@@ -115,10 +115,9 @@ const Services = () => {
           {/* Services Grid */}
           <div className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 gap-4 sm:gap-6 mb-12">
             {services.map((service, index) => (
+              <Reveal key={index} variant="up" delay={(index % 3) * 120} className="h-full">
               <div 
-                key={index}
-                className="group bg-card border border-border rounded-xl p-6 hover-lift gradient-ring shine animate-fade-up [animation-fill-mode:backwards]"
-                style={{ animationDelay: `${index * 0.1}s` }}
+                className="group h-full bg-card border border-border rounded-xl p-6 hover-lift gradient-ring shine"
               >
                 <div className={`inline-flex p-3 rounded-lg bg-gradient-to-r ${service.gradient} text-white mb-4 group-hover:scale-110 transition-transform duration-300`}>
                   {service.icon}
