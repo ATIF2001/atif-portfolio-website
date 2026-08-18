@@ -1,5 +1,6 @@
 import { useState, lazy, Suspense } from "react";
 import ProjectCard from "./ProjectCard";
+import Reveal from "./Reveal";
 
 const ProjectModal = lazy(() => import("./ProjectModal"));
 import { Button } from "@/components/ui/button";
