@@ -54,6 +54,18 @@ const Portfolio = () => {
       images: [luxereplyDashboard1New, luxereplyDashboard2New, luxereplyReviewsNew]
     },
     {
+      id: "17",
+      title: "Jovera ERP - Custom ERP CRM & Business Management",
+      category: "Full Stack Projects",
+      description: "Financial SaaS platform covering CRM, HRM, Accounting, Sales, and Business Workflows",
+      challenge: "Businesses needed a unified SaaS platform to manage CRM, HR, accounting, sales, and operations instead of relying on disconnected tools and spreadsheets.",
+      solution: "Contributed to the development of a custom ERP CRM alongside other developers. Built modules for CRM, HRM, Accounting, Sales, and Business Workflows, enabling centralized data management, role-based access, and scalable business operations.",
+      impact: "Provided a comprehensive business management solution that streamlined operations, improved cross-department collaboration, and reduced reliance on multiple third-party tools.",
+      tools: ["React.js", "Node.js", "MongoDB", "ERP", "CRM", "HRM", "Accounting", "Sales Management"],
+      liveUrl: "https://jovera-erp-demo.netlify.app/",
+      images: [joveraErpCrm.url]
+    },
+    {
       id: "7",
       title: "Felix Rental - Booking Engine",
       category: "Full Stack Projects",
