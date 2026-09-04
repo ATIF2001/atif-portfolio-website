@@ -32,6 +32,7 @@ import joveraCrmWeb from "@/assets/projects/jovera-crm-web.png";
 import uniqGoldEcommerce from "@/assets/projects/uniqgold-ecommerce.png";
 import furniroEcommerce from "@/assets/projects/furniro-ecommerce.jpg";
 import felixPropertyDashboard from "@/assets/projects/felix-property-dashboard.jpg";
+import joveraErpCrm from "@/assets/projects/jovera-erp-crm.jpg.asset.json";
 
 const Portfolio = () => {
   const [activeFilter, setActiveFilter] = useState("All");
