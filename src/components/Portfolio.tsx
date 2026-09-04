@@ -32,7 +32,7 @@ import joveraCrmWeb from "@/assets/projects/jovera-crm-web.png";
 import uniqGoldEcommerce from "@/assets/projects/uniqgold-ecommerce.png";
 import furniroEcommerce from "@/assets/projects/furniro-ecommerce.jpg";
 import felixPropertyDashboard from "@/assets/projects/felix-property-dashboard.jpg";
-import joveraErpCrm from "@/assets/projects/jovera-erp-crm.jpg.asset.json";
+import joveraErpCrm from "@/assets/projects/jovera-erp-crm.jpg";
 
 const Portfolio = () => {
   const [activeFilter, setActiveFilter] = useState("All");
@@ -63,7 +63,7 @@ const Portfolio = () => {
       impact: "Provided a comprehensive business management solution that streamlined operations, improved cross-department collaboration, and reduced reliance on multiple third-party tools.",
       tools: ["React.js", "Node.js", "MongoDB", "ERP", "CRM", "HRM", "Accounting", "Sales Management"],
       liveUrl: "https://jovera-erp-demo.netlify.app/",
-      images: [joveraErpCrm.url]
+      images: [joveraErpCrm]
     },
     {
       id: "7",
