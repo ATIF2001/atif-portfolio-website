@@ -1,6 +1,6 @@
 import { lazy, Suspense } from "react";
 import { Button } from "@/components/ui/button";
-import { ArrowRight, Mail, ChevronDown, Code2, Terminal, Cpu, Download } from "lucide-react";
+import { ArrowRight, ChevronDown, Code2, Terminal, Cpu, Download } from "lucide-react";
 
 const Web3Visual = lazy(() => import("./Web3Visual"));
 
