@@ -1,6 +1,6 @@
 import { lazy, Suspense } from "react";
 import { Button } from "@/components/ui/button";
-import { ArrowRight, Mail, ChevronDown, Code2, Terminal, Cpu } from "lucide-react";
+import { ArrowRight, Mail, ChevronDown, Code2, Terminal, Cpu, Download } from "lucide-react";
 
 const Web3Visual = lazy(() => import("./Web3Visual"));
 
@@ -86,6 +86,21 @@ const Hero = () => {
             >
               <Mail className="w-5 h-5 mr-2" />
               Contact Me
+            </Button>
+
+            <Button
+              size="lg"
+              variant="outline"
+              className="border-primary/50 hover:bg-primary/10 hover:border-primary transition-all duration-300"
+              onClick={() =>
+                window.open(
+                  "https://drive.google.com/file/d/1SM6U1-u4G5BJXSbXdpB_EtuHlUvzSQIL/view?usp=sharing",
+                  "_blank"
+                )
+              }
+            >
+              <Download className="w-5 h-5 mr-2" />
+              Resume
             </Button>
           </div>
         </div>
